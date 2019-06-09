@@ -22,5 +22,5 @@ cd gmp-6.1.2
 make install
 R
 install.packages("devtools")
-devtools::install_github("Nathansam/CircadianTools")
+devtools::install_github("nathansam/CircadianTools")
 q()
