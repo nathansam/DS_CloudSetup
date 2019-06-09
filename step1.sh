@@ -17,14 +17,13 @@ sudo gdebi rstudio-server-1.2.1335-amd64.deb
 sudo apt-get install -y libcurl4-openssl-dev
 
 #Install dependencies for R packages
+sudo apt-get install m4
 wget https://gmplib.org/download/gmp/gmp-6.1.2.tar.xz
 sudo apt-get install -y xz-utils
 unxz gmp-6.1.2.tar.xz
 tar -xvf gmp-6.1.2.tar
 cd gmp-6.1.2
 ./configure
-sudo apt-get install m4
 sudo make install
-
 
 
