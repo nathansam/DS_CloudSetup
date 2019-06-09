@@ -28,7 +28,8 @@ make install
 sudo useradd nathan
 cd
 cd DS_CloudSetup
-Rscript packages.R
+
+sudo -u nathan Rscript packages.R
 
 echo restarting 
 sudo reboot
