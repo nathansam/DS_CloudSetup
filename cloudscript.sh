@@ -7,6 +7,10 @@ sudo apt-get upgrade
 sudo apt install r-base #Install R
 sudo apt-get install gdebi-core #install gdebi for installing rstudio-server
 
+
+pip3 install virtualenv numpy scipy scikit-learn
+
+
 #Install rstudio-server
 wget https://download2.rstudio.org/server/trusty/amd64/rstudio-server-1.2.1335-amd64.deb 
 sudo gdebi rstudio-server-1.2.1335-amd64.deb
