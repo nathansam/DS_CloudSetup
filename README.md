@@ -8,5 +8,7 @@ cd DS_CloudSetup
 bash step1.sh
 sudo adduser <username>
 su <username>
-bash step2.sh
+git clone https://github.com/nathansam/DS_CloudSetup.git
+cd DS_CloudSetup
+Rscript packages.R
 ```
