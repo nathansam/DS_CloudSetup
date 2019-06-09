@@ -23,10 +23,10 @@ unxz gmp-6.1.2.tar.xz
 tar -xvf gmp-6.1.2.tar
 cd gmp-6.1.2
 ./configure
+make
 make install
 
-useradd -s /bin/bash -m -d /home/nathan nathan
-passwd password
+sudo useradd nathan
 
 Rscript packages.R
 
