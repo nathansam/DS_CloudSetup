@@ -23,7 +23,8 @@ unxz gmp-6.1.2.tar.xz
 tar -xvf gmp-6.1.2.tar
 cd gmp-6.1.2
 ./configure
-make install
+sudo apt-get install m4
+sudo make install
 
 
 
