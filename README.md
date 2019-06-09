@@ -6,6 +6,7 @@ Bash script for quickly installing the programs required for datascience on a ub
 git clone https://github.com/nathansam/DS_CloudSetup.git
 cd DS_CloudSetup
 bash step1.sh
-sudo passwd
+sudo adduser <username>
+su <username>
 bash step2.sh
 ```
