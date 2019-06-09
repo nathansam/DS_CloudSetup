@@ -10,7 +10,7 @@ sudo apt-get install gdebi-core #install gdebi for installing rstudio-server
 #Install rstudio-server
 wget https://download2.rstudio.org/server/trusty/amd64/rstudio-server-1.2.1335-amd64.deb 
 sudo gdebi rstudio-server-1.2.1335-amd64.deb
-sudo apt-get install libssl-dev
+sudo apt-get install libcurl4-openssl-dev
 
 #Install dependencies for R packages
 wget https://gmplib.org/download/gmp/gmp-6.1.2.tar.xz
@@ -20,7 +20,12 @@ tar -xvf gmp-6.1.2.tar
 cd gmp-6.1.2
 ./configure
 make install
-R
-install.packages("devtools")
-devtools::install_github("nathansam/CircadianTools")
-q()
+
+useradd -s /bin/bash -m -d /home/nathan nathan
+passwd password
+passwd -f
+
+Rscript packages.R
+
+sudo reboot
+
