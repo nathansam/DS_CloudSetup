@@ -23,11 +23,11 @@ unxz gmp-6.1.2.tar.xz
 tar -xvf gmp-6.1.2.tar
 cd gmp-6.1.2
 ./configure
-make
 make install
 
 sudo useradd nathan
-
+cd
+cd DS_CloudSetup
 Rscript packages.R
 
 echo restarting 
