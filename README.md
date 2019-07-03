@@ -8,5 +8,5 @@ cd DS_CloudSetup
 bash step1.sh
 sudo adduser <username>
 su <username>
-bash step2.sh
+sudo Rscript packages.R
 ```

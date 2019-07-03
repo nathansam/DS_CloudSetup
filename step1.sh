@@ -9,7 +9,7 @@ sudo apt install -y r-base #Install R
 sudo apt-get install -y gdebi-core #install gdebi for installing rstudio-server
 
 
-pip3 install virtualenv numpy scipy scikit-learn
+pip3 install virtualenv numpy scipy scikit-learn pandas matplotlib
 
 
 #Install rstudio-server
