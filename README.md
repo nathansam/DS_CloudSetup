@@ -1,5 +1,8 @@
 # DS_CloudSetup
-Bash script for quickly installing the programs required for datascience on a ubuntu 18.10 server running on the cloud. 
+
+
+Bash script for quickly installing the programs required for data science on a
+server running Ubuntu 20.10 
 
 ## Install Instructions
 ```
